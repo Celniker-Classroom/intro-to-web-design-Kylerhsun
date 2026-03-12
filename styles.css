@@ -3,14 +3,20 @@ body {
 }
 
 .images {
-  width: 500px;
   border: 5px solid #ffffff;
+  border-radius: 25px;
   box-sizing: border-box;
+  width: 500px;
+  margin: auto;
 }
 .text {
   font-size: medium;
   font-family: cursive;
+  width: 500px;
+  margin: auto;
 }
 .header {
   font-family: sans-serif;
+  width: 500px;
+  margin: auto;
 }
