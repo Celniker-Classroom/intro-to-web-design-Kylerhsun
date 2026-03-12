@@ -1,7 +1,16 @@
 body {
-  background-color: lightblue;
+  background-color: rgba(173, 216, 230, 0.589);
 }
 
 .images {
-    width: 500px
+  width: 500px;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
+}
+.text {
+  font-size: medium;
+  font-family: cursive;
+}
+.header {
+  font-family: sans-serif;
 }
