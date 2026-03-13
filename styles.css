@@ -10,7 +10,7 @@ body {
   width: 500px;
   object-fit: cover; 
   object-position: center;
-   float: left;
+  margin-right: 50px;
 }
 .text {
   font-size: medium;
@@ -19,12 +19,19 @@ body {
   margin: auto;
   padding-bottom: 15%;
 }
-.header {
-  font-family: sans-serif;
-  width: 500px;
-  margin: auto;
-}
+
+
 .container {
   width: 1500px; 
   margin: 0 auto; 
+}
+.box {
+  display: flex;
+  gap: 10px; 
+  align-self: auto;
+}
+.header {
+  font-family: sans-serif;
+  width: 500px;
+  margin-left: 30%;
 }
