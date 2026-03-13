@@ -1,22 +1,30 @@
 body {
-  background-color: rgba(173, 216, 230, 0.589);
+  background-color: rgba(44, 209, 23, 0.418);
 }
 
 .images {
   border: 5px solid #ffffff;
   border-radius: 25px;
   box-sizing: border-box;
+  height: 600px;
   width: 500px;
-  margin: auto;
+  object-fit: cover; 
+  object-position: center;
+   float: left;
 }
 .text {
   font-size: medium;
   font-family: cursive;
   width: 500px;
   margin: auto;
+  padding-bottom: 15%;
 }
 .header {
   font-family: sans-serif;
   width: 500px;
   margin: auto;
+}
+.container {
+  width: 1500px; 
+  margin: 0 auto; 
 }
