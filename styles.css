@@ -11,8 +11,10 @@ body {
   object-fit: cover; 
   object-position: center;
   float: none;
+  padding: 0%;
 }
 .text {
+  line-height: normal;
   font-size: larger;
   font-family: cursive;
   width: 500px;
