@@ -1,9 +1,15 @@
 body {
   background-color: rgba(44, 209, 23, 0.418);
 }
+
+* {
+  box-sizing: border-box;
+}
+
 .space {
   padding-top: 40px;
 }
+
 .images {
   border: 5px solid #ffffff;
   border-radius: 25px;
@@ -16,6 +22,7 @@ body {
   padding: 0%;
   margin-left: 5%;
 }
+
 .text {
   line-height: normal;
   font-size: larger;
@@ -24,28 +31,49 @@ body {
   padding-bottom: 15%;
   padding-top: 5%;
   align-self: center;
-  margin-left:20%;
+  margin-left:15%;
 }
+
 .box {
   display: flex;
   align-content: center;
   justify-content: center;
 }
+
 .sidebar {
     border: 5px solid #ffffff;
     border-radius: 25px;
-    box-sizing: border-box;
-    height: 400px;
-    width: 10%;
-    padding-right: 10%;
-    margin-right:0%;
+    width: 13%;
     background-color: black;
     font-family: cursive;
     color: white;
     position:sticky;
     top:5%;
-  }
 
+    ul {
+      list-style-type: none;
+      padding: 5px;
+
+      li {
+        padding: 10px 0 10px 0;
+      }
+    }
+}
+
+.hidden {
+  visibility: hidden;
+  color: lightblue;
+}
+
+.sidebar:hover {
+  width:40%;
+
+  .hidden{
+    visibility: visible;
+    width:100%
+  }
+}
+  
 #title {
   width:20%;
   height:10%;
@@ -56,6 +84,7 @@ body {
   object-position: center;
   padding-left: 1%;
 }
+
 .header {
   font-family: sans-serif;
   width: 20%;
@@ -79,6 +108,16 @@ body {
 .link:hover{
   color:white
 }
+#me {
+  padding-left:20%;
+  padding-right:20%;
+  float:right;
+  width:80%;
+  height:400px;
+  object-fit: cover;
+  object-position: top;
+  background-color:black;
+}
 @media (min-width: 1200px) {
   .container {
     width:1100px;
@@ -89,7 +128,7 @@ body {
 }
 @media (max-width: 1200px) {
   .container {
-    width: 100%;
+    width: 1100px;
     margin-left: auto; 
     margin-right: auto;
     font-size: medium;
@@ -128,6 +167,9 @@ body {
     margin-right: auto;
     font-size: small;
     align-self: center;
+  #me {
+    width:100%
+  }
   .images {
       max-width: 100%;
       height: auto;
@@ -164,5 +206,8 @@ body {
   }
   .sidebar {
   visibility: collapse;
+  }
+  #me {
+    width:100%
   }
 }
