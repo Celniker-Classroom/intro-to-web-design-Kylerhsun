@@ -206,21 +206,20 @@ body {
     font-size: x-small;
   }
   .images {
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
     float: right;
   }
   .sidebar {
   visibility: collapse;
   }
   #me {
-    width:100%
+    width:80%
   }
   .header {
-    width:80%;
-    margin-left:10%;
+    width:50%;
   }
   #title {
-    width:100%;
+    width:80%;
   }
 }
